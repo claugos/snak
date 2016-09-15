@@ -1,0 +1,17 @@
+Hola que tal, aqui te mando algunas ideas y tips para el desarrollo de tu juego de snake
+
+en primer lugar que revices el ejemplo de los tanques, los archivos .cpp fueron comentados para hacer mas facil su comprension
+espero que eso ayude.
+
+Para los avances que ya vi esta bien, lamento no poder hacer comentarios en el ejemplo del snake pero ya debo terminar por hoy
+
+un tip, para la serpiente usa una clase objeto que sea a la cabeza, solo una copia de el sera la que inicie el juego, a este le das la capacidad
+de detectar cuando se encuentra en la misma posicion que un objeto comida, en ese momento generara un objeto de clase cuerpo.. ambos son un cuadrado en la pantalla identicos..
+tienes que guardar dos datos, la cantidad de objetos que conforman el snake contando la cabeza y la ultima posicion del ultimo objeto agregado en esa lista (al iniciar el juego el primero que se agrega es el de la cabeza), cuando detectes que ya comio algo, genera un nuevo objeto curerpo en la ultima coordenada que estuvo el ultimo que habia sido agregado..
+
+por otro lado la clase de objeto comida, hace dos cosas primero se elimina cuando detecta una colision con la cabeza del snake y luego reaparece en otra coordenada aleatoria dentro del tablero.
+
+si quieres puedes detectar la colision de la cabeza con el cuerpo y mostrar que el jugador perdio, o añadir que al comer suma puntos y mostrarlos en pantalla si te da tiempo..
+
+bueno, cualquier cosa espero ayudarte
+hasta luego.
